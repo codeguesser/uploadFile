@@ -7,25 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23AD0518158F3164007674C6 /* SimpleHtmlServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 23AD0517158F3164007674C6 /* SimpleHtmlServer.m */; };
 		23E01109158AD03500590A86 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E01108158AD03500590A86 /* UIKit.framework */; };
 		23E0110B158AD03500590A86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E0110A158AD03500590A86 /* Foundation.framework */; };
 		23E0110D158AD03500590A86 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E0110C158AD03500590A86 /* CoreGraphics.framework */; };
 		23E01113158AD03500590A86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23E01111158AD03500590A86 /* InfoPlist.strings */; };
 		23E01115158AD03500590A86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E01114158AD03500590A86 /* main.m */; };
 		23E01119158AD03500590A86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E01118158AD03500590A86 /* AppDelegate.m */; };
+		23E014AE158B37EC00590A86 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23E014AD158B37EC00590A86 /* CFNetwork.framework */; };
+		23E014B9158B49D000590A86 /* Listenner.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E014B6158B49CF00590A86 /* Listenner.m */; };
+		23E014BA158B49D000590A86 /* Sender.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E014B8158B49CF00590A86 /* Sender.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23AD0516158F3163007674C6 /* SimpleHtmlServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHtmlServer.h; sourceTree = "<group>"; };
+		23AD0517158F3164007674C6 /* SimpleHtmlServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHtmlServer.m; sourceTree = "<group>"; };
 		23E01104158AD03500590A86 /* testUploadFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testUploadFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E01108158AD03500590A86 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		23E0110A158AD03500590A86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		23E0110C158AD03500590A86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		23E01110158AD03500590A86 /* testUploadFile-Info.plist */ = {isa = PBXFileReference; path = "testUploadFile-Info.plist"; sourceTree = "<group>"; };
+		23E01110158AD03500590A86 /* testUploadFile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testUploadFile-Info.plist"; sourceTree = "<group>"; };
 		23E01112158AD03500590A86 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		23E01114158AD03500590A86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		23E01116158AD03500590A86 /* testUploadFile-Prefix.pch */ = {isa = PBXFileReference; path = "testUploadFile-Prefix.pch"; sourceTree = "<group>"; };
-		23E01117158AD03500590A86 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		23E01116158AD03500590A86 /* testUploadFile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testUploadFile-Prefix.pch"; sourceTree = "<group>"; };
+		23E01117158AD03500590A86 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23E01118158AD03500590A86 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23E014AD158B37EC00590A86 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		23E014B5158B49CF00590A86 /* Listenner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Listenner.h; sourceTree = "<group>"; };
+		23E014B6158B49CF00590A86 /* Listenner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Listenner.m; sourceTree = "<group>"; };
+		23E014B7158B49CF00590A86 /* Sender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sender.h; sourceTree = "<group>"; };
+		23E014B8158B49CF00590A86 /* Sender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sender.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23E014AE158B37EC00590A86 /* CFNetwork.framework in Frameworks */,
 				23E01109158AD03500590A86 /* UIKit.framework in Frameworks */,
 				23E0110B158AD03500590A86 /* Foundation.framework in Frameworks */,
 				23E0110D158AD03500590A86 /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +74,7 @@
 		23E01107158AD03500590A86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23E014AD158B37EC00590A86 /* CFNetwork.framework */,
 				23E01108158AD03500590A86 /* UIKit.framework */,
 				23E0110A158AD03500590A86 /* Foundation.framework */,
 				23E0110C158AD03500590A86 /* CoreGraphics.framework */,
@@ -72,9 +85,15 @@
 		23E0110E158AD03500590A86 /* testUploadFile */ = {
 			isa = PBXGroup;
 			children = (
+				23E014B5158B49CF00590A86 /* Listenner.h */,
+				23E014B6158B49CF00590A86 /* Listenner.m */,
+				23E014B7158B49CF00590A86 /* Sender.h */,
+				23E014B8158B49CF00590A86 /* Sender.m */,
 				23E01117158AD03500590A86 /* AppDelegate.h */,
 				23E01118158AD03500590A86 /* AppDelegate.m */,
 				23E0110F158AD03500590A86 /* Supporting Files */,
+				23AD0516158F3163007674C6 /* SimpleHtmlServer.h */,
+				23AD0517158F3164007674C6 /* SimpleHtmlServer.m */,
 			);
 			path = testUploadFile;
 			sourceTree = "<group>";
@@ -153,6 +172,9 @@
 			files = (
 				23E01115158AD03500590A86 /* main.m in Sources */,
 				23E01119158AD03500590A86 /* AppDelegate.m in Sources */,
+				23E014B9158B49D000590A86 /* Listenner.m in Sources */,
+				23E014BA158B49D000590A86 /* Sender.m in Sources */,
+				23AD0518158F3164007674C6 /* SimpleHtmlServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +276,7 @@
 				23E0111E158AD03500590A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
